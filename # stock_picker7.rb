@@ -11,16 +11,5 @@ currentBestSellIndex = 0
 currentBestBuyIndex = 0
 
 stock_picker.each_with_index do |n,index|
-
-	if index ==0
-		currentBestBuy  = n
-		currentBestSell = n
-		currentBestBuyIndex = index
-		currentBestSellIndex = index
-	else
-		if 
-	end
-
-
-
+	puts n *2
 end

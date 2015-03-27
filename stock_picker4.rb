@@ -16,7 +16,7 @@ else
 			currrentLowest  = stock_picker[0]
 			currentHighest = stock_picker[0]
 		else
-			if n > stock_picker[n-1].to_i #if this one is bigger than the one before change sell  .
+			if n > stock_picker[index-1].to_i #if this one is bigger than the one before change sell  .
 				currentHighest = n
 				currentDifference = currentHighest - currrentLowest
 				if currentDifference > rangeDifference

@@ -19,7 +19,7 @@ else
 			currrentLowest  = stock_picker[0]
 			currentHighest = stock_picker[0]
 			currentDifference = 0
-		elsif n > stock_picker[n-1].to_i #if this one is bigger than the one before, it might be chance to sell  .
+		elsif n > stock_picker[index-1].to_i #if this one is bigger than the one before, it might be chance to sell  .
 				currentHighest = n
 				currentDifference = currentHighest - currrentLowest
 				if currentDifference > rangeDifference
