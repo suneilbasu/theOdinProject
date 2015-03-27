@@ -5,7 +5,7 @@ buy = 0
 sell = 0
 
 sp.each_with_index do|n,index|
-
+#second loop
 	sp.each_with_index do|g,indexx|
 		if index >= indexx
 			checked = n-g
